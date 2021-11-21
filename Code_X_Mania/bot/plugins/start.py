@@ -47,7 +47,7 @@ async def start(b, m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                                InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"{Var.UPDATES_CHANNEL}")
                             ]
                         ]
                     ),
@@ -201,7 +201,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ ADARSH GOEL](https://t.me/adarsh_status_bot).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ ADARSH GOEL](https://t.me/codexmania).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
